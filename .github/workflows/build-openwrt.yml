@@ -70,7 +70,7 @@ jobs:
         ../$DIY_SH
 
     - name: SSH connection to Actions
-      uses: P3TERX/debugger-action@master
+      uses: tp703/debugger-action@master
       if: env.SSH_ACTIONS == 'true'
 
     - name: Download package
